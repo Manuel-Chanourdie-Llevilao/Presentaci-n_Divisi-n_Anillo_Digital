@@ -1,12 +1,13 @@
-# GitHub: declarar recursos de la presentación como parte del repositorio
-# Asegura que GitHub Pages sirva correctamente las imágenes
+# GitHub: recursos de la presentación
+# NOTA (2026-09-03): Los escudos 01.png, 02.png, 03.png YA NO se encuentran
+# en la carpeta imagenes/ — se revierte la declaración anterior (commit f8c9fdd).
+# La carpeta imagenes/ fue eliminada del repositorio.
+# Los escudos ahora están en la raíz de 01. Presentacion/ (01.png, 02.png, 03.png).
 
-# Imágenes de la portada (escudos 01, 02, 03) - binarios, no ignorar
-imagenes/*.png binary linguist-generated=false
-imagenes/*.jpg binary linguist-generated=false
-imagenes/*.jpeg binary linguist-generated=false
-imagenes/*.webp binary linguist-generated=false
-imagenes/*.svg text linguist-generated=false
+# Escudos en raíz de la presentación
+01.png binary linguist-generated=false
+02.png binary linguist-generated=false
+03.png binary linguist-generated=false
 
 # HTML/CSS/JS de la presentación
 *.html text eol=lf
