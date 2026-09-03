@@ -1,0 +1,14 @@
+# GitHub: declarar recursos de la presentación como parte del repositorio
+# Asegura que GitHub Pages sirva correctamente las imágenes
+
+# Imágenes de la portada (escudos 01, 02, 03) - binarios, no ignorar
+imagenes/*.png binary linguist-generated=false
+imagenes/*.jpg binary linguist-generated=false
+imagenes/*.jpeg binary linguist-generated=false
+imagenes/*.webp binary linguist-generated=false
+imagenes/*.svg text linguist-generated=false
+
+# HTML/CSS/JS de la presentación
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
